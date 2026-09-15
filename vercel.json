@@ -1,6 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
-  "buildCommand": "echo 'Static site ready'",
+  "outputDirectory": ".",
+  "buildCommand": "mkdir -p public && cp index.html styles.css app.js data1.js data2.js public/",
   "cleanUrls": true
 }

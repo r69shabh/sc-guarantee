@@ -4,7 +4,7 @@
   "private": true,
   "description": "THE GUARANTEE - case file on Social Capital Inc. (Print Magazine Edition)",
   "scripts": {
-    "build": "echo 'Static site ready'",
-    "vercel-build": "echo 'Static site ready'"
+    "build": "mkdir -p public && cp index.html styles.css app.js data1.js data2.js public/",
+    "vercel-build": "mkdir -p public && cp index.html styles.css app.js data1.js data2.js public/"
   }
 }
