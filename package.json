@@ -1,0 +1,10 @@
+{
+  "name": "sc-guarantee",
+  "version": "1.0.0",
+  "private": true,
+  "description": "THE GUARANTEE - case file on Social Capital Inc. (Print Magazine Edition)",
+  "scripts": {
+    "build": "echo 'Static site ready'",
+    "vercel-build": "echo 'Static site ready'"
+  }
+}
